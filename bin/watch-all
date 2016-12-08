@@ -1,0 +1,4 @@
+node-sass -w -o --source-map public/css assets/sass/main.scss &
+watchify -w assets/js/bundle-map.js -o public/js/main.js &
+pug --pretty -w assets/pug/views -o public -O assets/data/locals.json &
+nodemon --ignore public/js/**/* --ignore assets/js
