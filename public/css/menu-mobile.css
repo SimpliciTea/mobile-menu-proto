@@ -112,9 +112,3 @@ div.nav-mobile {
 
 body.has-active-menu {
   overflow: hidden; }
-
-body {
-  background-color: #acacac; }
-
-* {
-  box-sizing: border-box; }

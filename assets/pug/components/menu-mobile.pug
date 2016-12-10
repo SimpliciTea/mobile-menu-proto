@@ -1,0 +1,8 @@
+div.nav-mobile
+  button.menu-toggle Menu
+  nav.menu-mobile
+    div#menu-mobile-backdrop
+    ul.menu-items
+      each item in ['stuff', 'to', 'roll in', 'one by one', 'first in last out']
+        li.menu-item
+          a.menu-link(href='#')= item
